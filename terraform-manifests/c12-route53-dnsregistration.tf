@@ -6,7 +6,7 @@ variable "dns_name" {
 # DNS Registration 
 resource "aws_route53_record" "apps_dns" {
   zone_id = data.aws_route53_zone.mydomain.zone_id 
-  name    = var.dns_name 
+  name    = "mcit.com" 
   type    = "A"
   alias {
     #name                   = module.alb.lb_dns_name
