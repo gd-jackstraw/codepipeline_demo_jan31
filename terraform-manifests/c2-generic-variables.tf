@@ -17,3 +17,5 @@ variable "business_divsion" {
   type = string
   default = "sap"
 }
+variable "AWS_ACCESS_KEY"{}
+variable "AWS_SECRET_ACCESS_KEY"{}
